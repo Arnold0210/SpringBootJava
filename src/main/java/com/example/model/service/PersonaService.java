@@ -4,10 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.*;
 import com.example.model.*;
 import org.springframework.data.repository.CrudRepository;
-import com.example.interfaces.IPersonaService;
+import com.example.interfacesService.IPersonaService;
 import com.example.interfaces.IPersona;
-import org.springframework.stereotype.Service;
-/**
+import org.springframework.stereotype.Service;/**
  *
  * @author julih
  */

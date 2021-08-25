@@ -1,5 +1,5 @@
-com\example\interfaces\IPersonaService.class
 com\example\BasicApplication.class
+com\example\interfacesService\IPersonaService.class
 PersonaService.class
 com\example\interfaces\IPersona.class
 com\example\model\Persona.class
