@@ -29,6 +29,10 @@ public class ControladorPersona {
     @GetMapping("/listar")
     public String listar(Model model) {
         List<Persona>  personas = service.listarPersonas();
+        for (Persona e:personas){
+            System.out.println(e.nombre);
+        }
+        
         model.addAttribute("personas",personas);
         return "index";
     }

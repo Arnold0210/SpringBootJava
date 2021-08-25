@@ -19,7 +19,7 @@ public class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int cedula;
-    private String nombre;
+    public String nombre;
     private String apellido;
     private int telefono;
 
