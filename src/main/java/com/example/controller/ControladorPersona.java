@@ -20,9 +20,8 @@ import org.springframework.stereotype.Component;
  *
  * @author julih
  */
-@Controller
+
 @RequestMapping
-@ComponentScan("com.example.model.service")
 public class ControladorPersona {   
 @Autowired
     private IPersonaService service;
